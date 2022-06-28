@@ -17,5 +17,6 @@
 * Develop hands-on skills using core Amazon Web Services (AWS) services
 
 ### Notes in an easy and simple way about AWS Educate Learning
-
-
+| Day                            | Topic       | Post link |
+| -----------------------------  | ----------- |-----------|
+| Day 01  | Introduction and History about AWS| [Day 01](https://github.com/ghimiresunil/100-days-of-AWS-Educate-Learning/blob/main/Day_01.md)|
