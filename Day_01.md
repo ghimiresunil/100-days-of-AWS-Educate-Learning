@@ -81,7 +81,7 @@ The course must encompasses hands-on exercises and real-time use cases to ensure
 * Scalability and Flexibility
 * Little Investment 
 
-## 9. Some interesting Amazon Web Services
+## 11. Some interesting Amazon Web Services
 * The “bread and butter” services are:
   * EC2 (compute)
   * RDS (storage)
