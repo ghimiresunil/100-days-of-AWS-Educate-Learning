@@ -86,7 +86,7 @@ One can easily get started with the free tier which probably delivers free usage
   * Sign in to the Amazon Elasticsearch Service console using user name and password.
   * In the navigation page, select books domain under My domains
   * Now, select Action, and then Delete domain inside it.
-  * At last, check the Delete Domain checkbox and choose Delete. 
+  * At last, check the Delete Domain checkbox and choose Delete. <br>
 **Note**: First of all, to getting started with AWS, we are required to create an account on AWS services.
  
 #### 1.1.1.8. Things to remember:
