@@ -20,3 +20,4 @@
 | Day                            | Topic       | Post | Linkedin URL|
 | -----------------------------  | ----------- |------|-------------|
 | Day 01  | Introduction and History about AWS| [Day 01](https://github.com/ghimiresunil/100-days-of-AWS-Educate-Learning/blob/main/Day_01.md)| https://lnkd.in/dMjYEb_2 |
+| Day 02  | AWS ElasticSearch| [Day 02](https://github.com/ghimiresunil/100-days-of-AWS-Educate-Learning/blob/main/Day_02.md)| https://lnkd.in/dcWjjCKR |
