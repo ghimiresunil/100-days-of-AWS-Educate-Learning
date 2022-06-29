@@ -44,7 +44,7 @@ With the help of the AWS ElasticSearch Service, one can easily pay for the exact
 
 One can easily get started with the free tier which probably delivers free usage of up to 750 hours per month with a single AZ t2.micro.elasticsearch or else t2.small.elasticsearch instance. It's AWS ElasticSearch pricing will also be for 10GB per month of optional Amazon EBS storage with the magnetic and general purpose.
 
-#### 1.1.1.7. Getting started with AWS Elasticsearch services
+#### 1.1.7. Getting started with AWS Elasticsearch services
 * Signup for AWS account
   *  Signup with AWS to create a new account on it. Click here and hit on Create an AWS Account button at the top right corner
 * Create an Amazon ES domain
@@ -89,11 +89,11 @@ One can easily get started with the free tier which probably delivers free usage
   * At last, check the Delete Domain checkbox and choose Delete. <br>
 **Note**: First of all, to getting started with AWS, we are required to create an account on AWS services.
  
-#### 1.1.1.8. Things to remember:
+#### 1.1.8. Things to remember:
 * Amazon ElasticSearch service is a drop-in replacement for new and existing ElasticSearch workloads.
 * Deploy, Manage, and Scale ElasticSearch more easily in the AWS cloud.
 * Support for ElasticSearch 5.1 brings scripting, additional plugins and additional performance to Amazon ElasticSearch Service
 
-#### 1.1.1.9. Search
+#### 1.1.9. Search
 * Application or website provides search capabilities over diverse documents
 * Query API to support application search
