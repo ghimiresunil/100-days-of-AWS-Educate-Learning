@@ -18,7 +18,7 @@ For Example: Consider Uber engineering team to be using kinesis for customer ana
 
 They would using streaming data for all customers in a geographic zone to callibrate the usage and in cancellations by drivers/customers. This would be a typical case where kinesis would be used, other applications would be IoT sensor data, Social Network Data, Game Data, and Stock market data streaming and analysis.
 
-### 1.3. Kinesis
+### 1.3.2. Kinesis
 
 Kinesis is an AWS Service for processing big data in real time. It is fully managed and runs your streaming applications without requiring you to manage any infrastructure based on business needs. Amazon Kinesis is scalable as it can handle any amount of data streaming data and process data with very low latencies.
 
@@ -26,7 +26,7 @@ Amazon Kinesis makes it easy to ingest real-time data such as audio, video, webs
 
 With AWS Kinesis, one can keep track of all the operational activities by analyzing the data and taking decisive actions instantly.
 
-### Why Amazon Kinesis?
+### 1.3.3. Why Amazon Kinesis?
 * Real-time processing: It allows to collect & analyze information in real-time like stock trade prices otherwise we need to wait for data-out report.
 * Easy to use: Using Amazon Kinesis, we can create a new stream, set its requirements, & start streaming data quickly.
 * High throughput, elastic: It allows to collect & analyze information in real-time like stock trade prices otherwise we need to wait for data-out report.
@@ -34,11 +34,11 @@ With AWS Kinesis, one can keep track of all the operational activities by analyz
 * Build kinesis applications: Amazon Kinesis provides the developers with client libraries that enable the design & operation of real-time data processing applications. Add the Amazon Kinesis Client Library to Java application & it will notify when new data is available for processing.
 * Cost-efficient: Amazon Kinesis is economical for workloads of any scale. Pay as we go for the resources used & pay hourly for the throughput required.
 
-### Uses:
+### 1.3.4. Uses:
 * Kinesis Data Streams can be used to collect log and events data from sources such as servers, desktops, and mobile devices.
 * You can build kinesis applications to continously process the data, generate metrics, power live dashboard, and emit aggregated data into stores such as Amazon S3.
 
-### Core Service of Kinesis
+### 1.3.5. Core Service of Kinesis
 * Kinesis Data Stream:
 A Kinesis data stream is a set of shards. Each shard has a sequence of data records. Each data record has a sequence number that is assigned by Kinesis Data Streams.
 
@@ -68,7 +68,7 @@ Amazon Kinesis Data Analytics is the easiest way to process and analyze real-tim
   * Apache Flink is an open source framework and engine for processsing data streams
 
 
-### Differences between Kinesis Streams & Kinesis Firehose
+### 1.3.6. Differences between Kinesis Streams & Kinesis Firehose
 * Kinesis stream is manually managed while Kinesis Firehose is fully automated managed.
 * Kinesis stream sends the data to many services while Kinesis Firehose sends the data only to S3 or Redshift.
 * Kinesis stream consists of an automatic retention window whose default time is 24 hours and can be extended to 7 days while Kinesis Firehose does not have automatic retention window.
