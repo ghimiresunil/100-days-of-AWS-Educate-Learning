@@ -18,7 +18,9 @@
 
 ### Notes in an easy and simple way about AWS Educate Learning
 | Day                            | Topic       | Post | Linkedin URL|
-| -----------------------------  | ----------- |------|-------------|
-| Day 01  | Introduction and History about AWS| [Day 01](https://github.com/ghimiresunil/100-days-of-AWS-Educate-Learning/blob/main/Day_01.md)| https://lnkd.in/dMjYEb_2 |
-| Day 02  | AWS ElasticSearch| [Day 02](https://github.com/ghimiresunil/100-days-of-AWS-Educate-Learning/blob/main/Day_02.md)| https://lnkd.in/dcWjjCKR |
-| Day 03 | AWS Elastic MapReduce | [Day 03](https://github.com/ghimiresunil/100-days-of-AWS-Educate-Learning/blob/main/Day_03.md)| -------------------- |
+| -----------------------------  | ----------- |:------:|:-------------:|
+| Day 01  | Introduction and History about AWS| [🔗](https://github.com/ghimiresunil/100-days-of-AWS-Educate-Learning/blob/main/Day_01.md)| [🔗](https://www.linkedin.com/posts/ghimiresunil_github-ghimiresunil100-days-of-aws-educate-learning-activity-6947591774911496192-Or8F?utm_source=linkedin_share&utm_medium=member_desktop_web) |
+| Day 02  | AWS ElasticSearch| [🔗](https://github.com/ghimiresunil/100-days-of-AWS-Educate-Learning/blob/main/Day_02.md)| [🔗](https://www.linkedin.com/posts/ghimiresunil_github-ghimiresunil100-days-of-aws-educate-learning-activity-6947942439819055104-Np8y?utm_source=linkedin_share&utm_medium=member_desktop_web) |
+| Day 03 | AWS Elastic MapReduce | [🔗](https://github.com/ghimiresunil/100-days-of-AWS-Educate-Learning/blob/main/Day_03.md)| [🔗](https://www.linkedin.com/posts/ghimiresunil_github-ghimiresunil100-days-of-aws-educate-learning-activity-6948296090962014208-gw1J?utm_source=linkedin_share&utm_medium=member_desktop_web) |
+| Day 04 | AWS Kinesis | [🔗](https://github.com/ghimiresunil/100-days-of-AWS-Educate-Learning/blob/main/Day_04.md)| [🔗](https://www.linkedin.com/posts/ghimiresunil_aws-awscloud-dailycoding-activity-6949744484783919104-Lc6s?utm_source=linkedin_share&utm_medium=member_desktop_web) |
+| Day 05 | AWS Athena | [🔗](https://github.com/ghimiresunil/100-days-of-AWS-Educate-Learning/blob/main/Day_05.md)| On Going|
