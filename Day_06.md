@@ -10,14 +10,24 @@
 
 AWS offers purpose-built databases for all your application needs. 
 
-* Relational Database: Store data with predefined schemas and “relationships” between the tables, hence the “Relational” name. It is designed to support ACID (Atomicity, Consistency, Isolation, Durability) transactions with strong data consistency to maintain referential integrity.
-* Key-value databases: Suitable for storing and retrieving large volumes of data. It delivers quick response times even in large volumes of concurrent requests. 
-* In-memory databases: Primarily used for applications that require real-time access to data. It is capable of delivering data to applications in microseconds and not just in milliseconds since the data are directly stored in memory and not on disk.
-
-Note: AWS also offers Document, Time Series, Ledger, and many other database types. You would most likely have a database service that you can use. 
-
 ## 2.1. Database Services
 
-|  Database Type| Uses Cases | AWS Service |
-| :--------------: | ---------- | ----------- |
+|  Database Type| Definition | Uses Cases | AWS Service |
+| :--------------: | ---------- | ----------- | ----------- |
+| Relational | Store data with predefined schemas and relationships between them. These databases are designed to support ACID transactions, and maintain referential integrity and strong data consistency | Traditional applications, enterprise resource planning (ERP), customer relationship management (CRM), ecommerce | - AWS Aurora <br> - AWS RDS <br> - AWS Redshift | 
+| Key-value | optimized for common access patterns, typically to store and retrieve large volumes of data. These databases deliver quick response times, even in extreme volumes of concurrent requests | High-traffic web applications, ecommerce systems, gaming applications | - Amazon DynamoDB |
+| In-memory | Used for applications that require real-time access to data. By storing data directly in memory, these databases deliver microsecond latency to applications for whom millisecond latency is not enough. | Caching, session management, gaming leaderboards, geospatial applications | - AWS ElasticCache <br>  - Amazon MemoryDB for Redis|
+| Document | Designed to store semistructured data as JSON-like documents. These databases help developers build and update applications quickly. | Content management, catalogs, user profiles | -  Amazon DocumentDB (with MongoDB compatibility)|
+| Wide Column | Type of NoSQL database. It uses tables, rows, and columns, but unlike a relational database, the names and format of the columns can vary from row to row in the same table. | High-scale industrial apps for equipment maintenance, fleet management, and route optimization | - Amazon Keyspaces|
+|Graph | Used for for applications that need to navigate and query millions of relationships between highly connected graph datasets with millisecond latency at large scale | Fraud detection, social networking, recommendation engines | - Amazon Neptune | 
+| Time series | Time-series databases efficiently collect, synthesize, and derive insights from data that changes over time and with queries spanning time intervals | Internet of Things (IoT) applications, DevOps, industrial telemetry | -  Amazon Timestream |
+| Ledger | Provide a centralized and trusted authority to maintain a scalable, immutable, and cryptographically verifiable record of transactions for every application | Systems of record, supply chain, registrations, banking transactions | - Amazon Ledger Database Services (QLDB) | 
+
+Note: You would most likely have a database service that you can use. 
+
+## 2.2 Uses Cases 
+* Move to managed databases
+* Build modern apps with purpose-built databases
+* Break free from legacy databases
+
 
