@@ -22,7 +22,11 @@
 - Caching improves application performance by storing critical pieces of data in memory for low latency access.
 - Cached information may include the results of I/O-intensive database queries or the results of computationally-intensive calculations.
 
-## 2.2.3.1. Types of ElastiCache
+## 2.2.3.1. How it works:
+- Internet Scale Applications: Real time application in Gaming, Ride-Hailing, Media Streaming, Dating and Social Media needs fast data access
+- Amazon ElastiCache: Blazing fast in memory data store for use as a database cache, message broker, and queue, store ephemeral data in memory for sub-millisecond response
+- Use Cases: Real time transactions, Chat, BI and analytics, Session store,gaming leader boards, and cache. 
+## 2.2.3.2. Types of ElastiCache
 
 - Memcached
   - Memcached-compatible in-memory key-value store service which will be used as a cache.
@@ -50,7 +54,7 @@
     - High availability and scalability
     - Extensibility
 
-#### 2.2.3.1.1. Differences between Memcached and Redis
+#### 2.2.3.2.1. Differences between Memcached and Redis
 
 | Basis for Comparison | Memcached | Redis|
 | -------------------- | ---------- | ---- |
@@ -66,7 +70,7 @@
 | Lua Scripting	 | It does not support Lua Scripting.	| It allows you to execute Lua Scripts which boost performance and simplify the application. |
 | Geospatial support	| It does not provide Geospatial support.	| It has purpose-built commands that work with geospatial data, i.e, you can find the distance between two elements or finding all the elements within a given distance.|
 
-## 2.2.3.2. Pricing
+## 2.2.3.3. Pricing
 
 - With on-demand nodes you pay only for the resources you consume by the hour without any long-term commitments.
 - With Reserved Nodes, you can make a low, one-time, up-front payment for each node you wish to reserve for a 1 or 3 year term. In return, you receive a significant discount off the ongoing hourly usage rate for the Node(s) you reserve.
